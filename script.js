@@ -39,7 +39,6 @@ function driversLicence6(passedTest) {
 driversLicence6(true);
 
 ///////////////////////////////////////////////////////////////
-
 //Blocks & IIFEs
 
 {
@@ -52,7 +51,6 @@ driversLicence6(true);
 console.log(c);
 
 ///////////////////////////////////////////////////////////////
-
 //Strings
 
 let firstName = 'Agustin';
@@ -100,7 +98,7 @@ ages6 = years.map((el, index) => {
 
 console.log(ages6);
 
-
+////////////////////////////////////////////////////////////////
 //Arrow function 2
 
 //ES5
