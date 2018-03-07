@@ -176,3 +176,33 @@ Person.prototype.myFriends6 = function (friends) {
 new Person('Agustin').myFriends6(friends);
 
 
+//////////////////////////////////////////////////////////////
+//Destructuring
+
+//ES5
+var john = ['John', 26];
+//var name = john[0];
+//var age = john[1];
+
+//ES6
+const [name, year] = ['John', 26];
+console.log(`${name} ${year}`);
+
+const obj = {
+    firstName: 'Agustin',
+    lastName: 'Ruiz'
+};
+
+const {firstNamee, lastNamee} = obj;
+
+
+function calcAgeRetirement(year) {
+    const age = new Date().getUTCFullYear() - year;
+    return [age, 65 - age];
+}
+
+const [age, retirement] = calcAgeRetirement(1992);
+console.log(age);
+console.log(retirement);
+
+
