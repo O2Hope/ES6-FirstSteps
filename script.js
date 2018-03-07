@@ -50,3 +50,24 @@ driversLicence6(true);
 
 //console.log(a + b);
 console.log(c);
+
+///////////////////////////////////////////////////////////////
+
+//Strings
+
+let firstName = 'Agustin';
+let lastName = 'Ruiz';
+const yearOfBirth = 1992;
+
+function calcAge(year) {
+    return 2018 - year;
+}
+//string template
+console.log(`This is ${firstName} ${lastName}. He was born in
+${yearOfBirth}. Today he is ${calcAge(yearOfBirth)} years old.`)
+
+const n = `${firstName} ${lastName}`;
+console.log(n.startsWith('A'));
+console.log(n.endsWith('iz'));
+console.log(n.includes(' '));
+console.log(`${firstName} `.repeat(5));
