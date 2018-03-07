@@ -37,3 +37,16 @@ function driversLicence6(passedTest) {
 }
 
 driversLicence6(true);
+
+///////////////////////////////////////////////////////////////
+
+//Blocks & IIFEs
+
+{
+    const a = 1;
+    let b = 2;
+    var c = 3;
+}
+
+//console.log(a + b);
+console.log(c);
